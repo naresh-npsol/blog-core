@@ -3189,3 +3189,214 @@ INFO 2024-06-01 07:21:01,469 django.server Thread-4 (process_request_thread) 139
 INFO 2024-06-01 07:21:01,575 django.server Thread-4 (process_request_thread) 139172463777344 basehttp basehttp.py 212 django.server log_message 11465 "GET /static/fonts/flaticon.ttf?99008aa38e7de407db084b96baa4b2a2 HTTP/1.1" 304 0
 INFO 2024-06-01 07:21:01,698 django.server Thread-4 (process_request_thread) 139172463777344 basehttp basehttp.py 212 django.server log_message 11465 "GET /static/django_ckeditor_5/prism-light.css HTTP/1.1" 304 0
 INFO 2024-06-01 07:21:01,969 django.server Thread-4 (process_request_thread) 139172463777344 basehttp basehttp.py 212 django.server log_message 11465 "GET /static/favicon/favicon-32x32.webp HTTP/1.1" 304 0
+INFO 2024-06-01 10:30:44,841 django.utils.autoreload MainThread 138016106496128 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 31369 Watching for file changes with StatReloader
+INFO 2024-06-01 10:52:17,519 django.utils.autoreload MainThread 127425792467072 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 1030 Watching for file changes with StatReloader
+INFO 2024-06-01 10:54:39,159 django.utils.autoreload MainThread 126024410759296 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 1050 Watching for file changes with StatReloader
+INFO 2024-06-01 10:58:27,487 django.utils.autoreload MainThread 133653055537280 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 1072 Watching for file changes with StatReloader
+ERROR 2024-06-01 10:58:32,377 django.security.DisallowedHost Thread-1 (process_request_thread) 133652526663360 exception exception.py 124 django.security.DisallowedHost response_for_exception 1072 Invalid HTTP_HOST header: '44.223.126.217:8000'. You may need to add '44.223.126.217' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '44.223.126.217:8000'. You may need to add '44.223.126.217' to ALLOWED_HOSTS.
+WARNING 2024-06-01 10:58:32,430 django.request Thread-1 (process_request_thread) 133652526663360 log log.py 241 django.request log_response 1072 Bad Request: /
+WARNING 2024-06-01 10:58:32,432 django.server Thread-1 (process_request_thread) 133652526663360 basehttp basehttp.py 212 django.server log_message 1072 "GET / HTTP/1.1" 400 13735
+ERROR 2024-06-01 10:58:33,014 django.security.DisallowedHost Thread-1 (process_request_thread) 133652526663360 exception exception.py 124 django.security.DisallowedHost response_for_exception 1072 Invalid HTTP_HOST header: '44.223.126.217:8000'. You may need to add '44.223.126.217' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '44.223.126.217:8000'. You may need to add '44.223.126.217' to ALLOWED_HOSTS.
+WARNING 2024-06-01 10:58:33,043 django.request Thread-1 (process_request_thread) 133652526663360 log log.py 241 django.request log_response 1072 Bad Request: /favicon.ico
+WARNING 2024-06-01 10:58:33,043 django.server Thread-1 (process_request_thread) 133652526663360 basehttp basehttp.py 212 django.server log_message 1072 "GET /favicon.ico HTTP/1.1" 400 13657
+INFO 2024-06-01 11:05:20,534 django.utils.autoreload MainThread 140034207547520 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 1225 Watching for file changes with StatReloader
+ERROR 2024-06-01 11:05:26,900 django.security.DisallowedHost Thread-1 (process_request_thread) 140033679951552 exception exception.py 124 django.security.DisallowedHost response_for_exception 1225 Invalid HTTP_HOST header: '44.223.126.217:8000'. You may need to add '44.223.126.217' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '44.223.126.217:8000'. You may need to add '44.223.126.217' to ALLOWED_HOSTS.
+WARNING 2024-06-01 11:05:26,934 django.request Thread-1 (process_request_thread) 140033679951552 log log.py 241 django.request log_response 1225 Bad Request: /
+WARNING 2024-06-01 11:05:26,935 django.server Thread-1 (process_request_thread) 140033679951552 basehttp basehttp.py 212 django.server log_message 1225 "GET / HTTP/1.1" 400 13778
+ERROR 2024-06-01 11:05:27,493 django.security.DisallowedHost Thread-1 (process_request_thread) 140033679951552 exception exception.py 124 django.security.DisallowedHost response_for_exception 1225 Invalid HTTP_HOST header: '44.223.126.217:8000'. You may need to add '44.223.126.217' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/blog-core/blogenv/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '44.223.126.217:8000'. You may need to add '44.223.126.217' to ALLOWED_HOSTS.
+WARNING 2024-06-01 11:05:27,525 django.request Thread-1 (process_request_thread) 140033679951552 log log.py 241 django.request log_response 1225 Bad Request: /favicon.ico
+WARNING 2024-06-01 11:05:27,526 django.server Thread-1 (process_request_thread) 140033679951552 basehttp basehttp.py 212 django.server log_message 1225 "GET /favicon.ico HTTP/1.1" 400 13663
+INFO 2024-06-01 11:11:13,538 django.utils.autoreload MainThread 127775126085760 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 1266 Watching for file changes with StatReloader
+INFO 2024-06-01 11:11:29,596 django.server Thread-1 (process_request_thread) 127774530471616 basehttp basehttp.py 212 django.server log_message 1266 "GET / HTTP/1.1" 200 5462
+INFO 2024-06-01 11:11:29,896 django.server Thread-3 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/flaticon.css HTTP/1.1" 200 13602
+INFO 2024-06-01 11:11:30,168 django.server Thread-4 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/menu.css HTTP/1.1" 200 31235
+INFO 2024-06-01 11:11:30,171 django.server Thread-1 (process_request_thread) 127774530471616 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/dropdown-effects/fade-down.css HTTP/1.1" 200 3905
+INFO 2024-06-01 11:11:30,171 django.server Thread-5 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/owl.carousel.min.css HTTP/1.1" 200 2936
+INFO 2024-06-01 11:11:30,172 django.server Thread-6 (process_request_thread) 127774402545344 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/magnific-popup.css HTTP/1.1" 200 6978
+INFO 2024-06-01 11:11:30,469 django.server Thread-2 (process_request_thread) 127774519985856 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232914
+INFO 2024-06-01 11:11:30,471 django.server Thread-3 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/owl.theme.default.min.css HTTP/1.1" 200 936
+INFO 2024-06-01 11:11:30,774 django.server Thread-4 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/animate.css HTTP/1.1" 200 24045
+INFO 2024-06-01 11:11:30,776 django.server Thread-5 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/lunar.css HTTP/1.1" 200 11717
+INFO 2024-06-01 11:11:31,104 django.server Thread-3 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery-3.7.0.min.js HTTP/1.1" 200 87462
+INFO 2024-06-01 11:11:31,385 django.server Thread-1 (process_request_thread) 127774530471616 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/custom-theme.css HTTP/1.1" 200 248012
+INFO 2024-06-01 11:11:31,395 django.server Thread-4 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60348
+INFO 2024-06-01 11:11:31,396 django.server Thread-5 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/modernizr.custom.js HTTP/1.1" 200 8496
+INFO 2024-06-01 11:11:31,408 django.server Thread-2 (process_request_thread) 127774519985856 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.easing.js HTTP/1.1" 200 8063
+INFO 2024-06-01 11:11:31,725 django.server Thread-3 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.appear.js HTTP/1.1" 200 3188
+INFO 2024-06-01 11:11:32,008 django.server Thread-5 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/menu.js HTTP/1.1" 200 2699
+INFO 2024-06-01 11:11:32,215 django.server Thread-3 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/owl.carousel.min.js HTTP/1.1" 200 44342
+INFO 2024-06-01 11:11:32,239 django.server Thread-1 (process_request_thread) 127774530471616 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/pricing-toggle.js HTTP/1.1" 200 510
+INFO 2024-06-01 11:11:32,457 django.server Thread-5 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+INFO 2024-06-01 11:11:32,717 django.server Thread-3 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/request-form.js HTTP/1.1" 200 2773
+INFO 2024-06-01 11:11:32,719 django.server Thread-4 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.validate.min.js HTTP/1.1" 200 24368
+INFO 2024-06-01 11:11:32,750 django.server Thread-1 (process_request_thread) 127774530471616 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.ajaxchimp.min.js HTTP/1.1" 200 2381
+INFO 2024-06-01 11:11:33,037 django.server Thread-5 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/lunar.js HTTP/1.1" 200 256
+INFO 2024-06-01 11:11:33,045 django.server Thread-2 (process_request_thread) 127774519985856 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/popper.min.js HTTP/1.1" 200 20976
+INFO 2024-06-01 11:11:33,336 django.server Thread-4 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/custom.js HTTP/1.1" 200 8352
+INFO 2024-06-01 11:11:33,338 django.server Thread-3 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/smart_logo.png HTTP/1.1" 200 84286
+INFO 2024-06-01 11:11:33,341 django.server Thread-1 (process_request_thread) 127774530471616 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/wow.js HTTP/1.1" 200 16406
+INFO 2024-06-01 11:11:33,665 django.server Thread-5 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/post-11-img.webp HTTP/1.1" 200 21119
+INFO 2024-06-01 11:11:33,668 django.server Thread-2 (process_request_thread) 127774519985856 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/post-3-img_eyIAR48.webp HTTP/1.1" 200 6168
+INFO 2024-06-01 11:11:33,848 django.server Thread-3 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/post-2-img.webp HTTP/1.1" 200 12234
+INFO 2024-06-01 11:11:33,878 django.server Thread-4 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/post-1-img.webp HTTP/1.1" 200 20430
+INFO 2024-06-01 11:11:33,881 django.server Thread-1 (process_request_thread) 127774530471616 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/htmx.min.js HTTP/1.1" 200 44307
+INFO 2024-06-01 11:11:34,162 django.server Thread-7 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/header.js HTTP/1.1" 200 672
+INFO 2024-06-01 11:11:34,166 django.server Thread-8 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/chatbox.js HTTP/1.1" 200 1702
+INFO 2024-06-01 11:11:34,462 django.server Thread-6 (process_request_thread) 127774402545344 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/responsive.css HTTP/1.1" 200 413934
+INFO 2024-06-01 11:11:36,251 django.server Thread-6 (process_request_thread) 127774402545344 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/fonts/flaticon.ttf?99008aa38e7de407db084b96baa4b2a2 HTTP/1.1" 200 65644
+INFO 2024-06-01 11:11:36,844 django.server Thread-6 (process_request_thread) 127774402545344 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/favicon/favicon-32x32.webp HTTP/1.1" 200 726
+INFO 2024-06-01 11:11:39,615 django.server Thread-6 (process_request_thread) 127774402545344 basehttp basehttp.py 212 django.server log_message 1266 "GET /?page=2 HTTP/1.1" 200 552
+INFO 2024-06-01 11:12:19,802 django.server Thread-6 (process_request_thread) 127774402545344 basehttp basehttp.py 212 django.server log_message 1266 "GET /post/freelancers_guide_to_mastering_social_media_with_a/ HTTP/1.1" 200 8588
+INFO 2024-06-01 11:12:20,087 django.server Thread-7 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/django_ckeditor_5/ckeditor.css HTTP/1.1" 200 18253
+INFO 2024-06-01 11:12:20,096 django.server Thread-8 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/django_ckeditor_5/prism.js HTTP/1.1" 200 46614
+INFO 2024-06-01 11:12:20,649 django.server Thread-7 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/addHeaderIdsAndLinks.js HTTP/1.1" 200 1034
+INFO 2024-06-01 11:12:20,717 django.server Thread-6 (process_request_thread) 127774402545344 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/freelance_calendar_aep0Oib.webp HTTP/1.1" 200 94465
+INFO 2024-06-01 11:12:20,718 django.server Thread-1 (process_request_thread) 127774530471616 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/user-avatar.jpg HTTP/1.1" 200 9227
+INFO 2024-06-01 11:12:20,956 django.server Thread-8 (process_request_thread) 127774509500096 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/author.jpg HTTP/1.1" 200 3981
+INFO 2024-06-01 11:12:21,381 django.server Thread-7 (process_request_thread) 127774499014336 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/django_ckeditor_5/prism-light.css HTTP/1.1" 200 3802
+INFO 2024-06-01 11:12:36,690 django.server Thread-10 (process_request_thread) 127774519985856 basehttp basehttp.py 212 django.server log_message 1266 "GET /post/freelancers_guide_to_mastering_social_media_with_a/ HTTP/1.1" 200 8584
+INFO 2024-06-01 11:12:37,211 django.server Thread-10 (process_request_thread) 127774519985856 basehttp basehttp.py 212 django.server log_message 1266 "GET /post/freelancers_guide_to_mastering_social_media_with_a/ HTTP/1.1" 200 8634
+INFO 2024-06-01 11:12:41,412 django.server Thread-11 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /post/freelancers_guide_to_mastering_social_media_with_a/ HTTP/1.1" 200 8590
+INFO 2024-06-01 11:12:41,790 django.server Thread-11 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/flaticon.css HTTP/1.1" 200 13602
+INFO 2024-06-01 11:12:41,976 django.server Thread-14 (process_request_thread) 127774371088064 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/owl.carousel.min.css HTTP/1.1" 200 2936
+INFO 2024-06-01 11:12:41,977 django.server Thread-12 (process_request_thread) 127774392059584 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/menu.css HTTP/1.1" 200 31235
+INFO 2024-06-01 11:12:41,977 django.server Thread-15 (process_request_thread) 127774360602304 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/magnific-popup.css HTTP/1.1" 200 6978
+INFO 2024-06-01 11:12:41,978 django.server Thread-16 (process_request_thread) 127774350116544 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/owl.theme.default.min.css HTTP/1.1" 200 936
+INFO 2024-06-01 11:12:41,984 django.server Thread-18 (process_request_thread) 127774190732992 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/lunar.css HTTP/1.1" 200 11717
+INFO 2024-06-01 11:12:41,986 django.server Thread-17 (process_request_thread) 127774201218752 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/django_ckeditor_5/prism.js HTTP/1.1" 200 46614
+INFO 2024-06-01 11:12:41,991 django.server Thread-24 (process_request_thread) 127773989406400 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/animate.css HTTP/1.1" 200 24045
+INFO 2024-06-01 11:12:41,993 django.server Thread-21 (process_request_thread) 127774159275712 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/django_ckeditor_5/ckeditor.css HTTP/1.1" 200 18253
+INFO 2024-06-01 11:12:41,994 django.server Thread-22 (process_request_thread) 127774148789952 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/dropdown-effects/fade-down.css HTTP/1.1" 200 3905
+INFO 2024-06-01 11:12:42,056 django.server Thread-26 (process_request_thread) 127773968434880 basehttp basehttp.py 212 django.server log_message 1266 "GET /post/freelancers_guide_to_mastering_social_media_with_a/ HTTP/1.1" 200 8586
+INFO 2024-06-01 11:12:42,341 django.server Thread-13 (process_request_thread) 127774381573824 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232914
+INFO 2024-06-01 11:12:42,356 django.server Thread-20 (process_request_thread) 127774169761472 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/freelance_calendar_aep0Oib.webp HTTP/1.1" 200 94503
+INFO 2024-06-01 11:12:42,362 django.server Thread-23 (process_request_thread) 127773999892160 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/smart_logo.png HTTP/1.1" 200 84286
+INFO 2024-06-01 11:12:42,381 django.server Thread-15 (process_request_thread) 127774360602304 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.appear.js HTTP/1.1" 200 3188
+INFO 2024-06-01 11:12:42,381 django.server Thread-24 (process_request_thread) 127773989406400 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/menu.js HTTP/1.1" 200 2699
+INFO 2024-06-01 11:12:42,382 django.server Thread-18 (process_request_thread) 127774190732992 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/modernizr.custom.js HTTP/1.1" 200 8496
+INFO 2024-06-01 11:12:42,386 django.server Thread-22 (process_request_thread) 127774148789952 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/user-avatar.jpg HTTP/1.1" 200 9227
+INFO 2024-06-01 11:12:42,386 django.server Thread-16 (process_request_thread) 127774350116544 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/owl.carousel.min.js HTTP/1.1" 200 44342
+INFO 2024-06-01 11:12:42,385 django.server Thread-14 (process_request_thread) 127774371088064 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/pricing-toggle.js HTTP/1.1" 200 510
+INFO 2024-06-01 11:12:42,387 django.server Thread-11 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/addHeaderIdsAndLinks.js HTTP/1.1" 200 1034
+INFO 2024-06-01 11:12:42,387 django.server Thread-21 (process_request_thread) 127774159275712 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60348
+INFO 2024-06-01 11:12:42,388 django.server Thread-12 (process_request_thread) 127774392059584 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/wow.js HTTP/1.1" 200 16406
+INFO 2024-06-01 11:12:42,459 django.server Thread-26 (process_request_thread) 127773968434880 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/magnific-popup.css HTTP/1.1" 200 6978
+INFO 2024-06-01 11:12:42,532 django.server Thread-19 (process_request_thread) 127774180247232 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/custom-theme.css HTTP/1.1" 200 248012
+INFO 2024-06-01 11:12:42,559 django.server Thread-27 (process_request_thread) 127774169761472 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.easing.js HTTP/1.1" 200 8063
+INFO 2024-06-01 11:12:42,563 django.server Thread-30 (process_request_thread) 127773798565568 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/request-form.js HTTP/1.1" 200 2773
+INFO 2024-06-01 11:12:42,564 django.server Thread-29 (process_request_thread) 127773947463360 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.validate.min.js HTTP/1.1" 200 24368
+INFO 2024-06-01 11:12:42,568 django.server Thread-31 (process_request_thread) 127773788079808 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/popper.min.js HTTP/1.1" 200 20976
+INFO 2024-06-01 11:12:42,568 django.server Thread-28 (process_request_thread) 127773957949120 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+INFO 2024-06-01 11:12:42,573 django.server Thread-32 (process_request_thread) 127773777594048 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/lunar.js HTTP/1.1" 200 256
+INFO 2024-06-01 11:12:42,576 django.server Thread-33 (process_request_thread) 127773767108288 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/custom.js HTTP/1.1" 200 8352
+INFO 2024-06-01 11:12:42,577 django.server Thread-34 (process_request_thread) 127773756622528 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/post-2-img.webp HTTP/1.1" 200 12278
+INFO 2024-06-01 11:12:42,577 django.server Thread-36 (process_request_thread) 127773597238976 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/author.jpg HTTP/1.1" 200 3981
+INFO 2024-06-01 11:12:42,581 django.server Thread-38 (process_request_thread) 127773576267456 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/chatbox.js HTTP/1.1" 200 1702
+INFO 2024-06-01 11:12:42,582 django.server Thread-39 (process_request_thread) 127773565781696 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.ajaxchimp.min.js HTTP/1.1" 200 2381
+INFO 2024-06-01 11:12:42,586 django.server Thread-35 (process_request_thread) 127773746136768 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery-3.7.0.min.js HTTP/1.1" 200 87462
+INFO 2024-06-01 11:12:42,586 django.server Thread-41 (process_request_thread) 127773756622528 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/header.js HTTP/1.1" 200 672
+INFO 2024-06-01 11:12:42,587 django.server Thread-40 (process_request_thread) 127773555295936 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/post-11-img.webp HTTP/1.1" 200 21155
+INFO 2024-06-01 11:12:42,642 django.server Thread-45 (process_request_thread) 127773385426624 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/flaticon.css HTTP/1.1" 200 13602
+INFO 2024-06-01 11:12:42,644 django.server Thread-46 (process_request_thread) 127773374940864 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/dropdown-effects/fade-down.css HTTP/1.1" 200 3905
+INFO 2024-06-01 11:12:42,647 django.server Thread-42 (process_request_thread) 127773555295936 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/django_ckeditor_5/ckeditor.css HTTP/1.1" 200 18253
+INFO 2024-06-01 11:12:42,649 django.server Thread-47 (process_request_thread) 127773364455104 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/owl.carousel.min.css HTTP/1.1" 200 2936
+INFO 2024-06-01 11:12:42,650 django.server Thread-48 (process_request_thread) 127773353969344 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/owl.theme.default.min.css HTTP/1.1" 200 936
+INFO 2024-06-01 11:12:42,652 django.server Thread-52 (process_request_thread) 127773173614272 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/lunar.css HTTP/1.1" 200 11717
+INFO 2024-06-01 11:12:42,652 django.server Thread-50 (process_request_thread) 127773194585792 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/animate.css HTTP/1.1" 200 24045
+INFO 2024-06-01 11:12:42,654 django.server Thread-53 (process_request_thread) 127773163128512 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/menu.css HTTP/1.1" 200 31235
+INFO 2024-06-01 11:12:42,753 django.server Thread-25 (process_request_thread) 127773978920640 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/responsive.css HTTP/1.1" 200 413934
+INFO 2024-06-01 11:12:42,760 django.server Thread-37 (process_request_thread) 127773586753216 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/htmx.min.js HTTP/1.1" 200 44307
+INFO 2024-06-01 11:12:42,822 django.server Thread-44 (process_request_thread) 127773395912384 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/django_ckeditor_5/prism.js HTTP/1.1" 200 46614
+INFO 2024-06-01 11:12:42,847 django.server Thread-54 (process_request_thread) 127773152642752 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/smart_logo.png HTTP/1.1" 200 84286
+INFO 2024-06-01 11:12:43,030 django.server Thread-14 (process_request_thread) 127774371088064 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/addHeaderIdsAndLinks.js HTTP/1.1" 200 1034
+INFO 2024-06-01 11:12:43,033 django.server Thread-48 (process_request_thread) 127773353969344 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.ajaxchimp.min.js HTTP/1.1" 200 2381
+INFO 2024-06-01 11:12:43,036 django.server Thread-32 (process_request_thread) 127773777594048 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.appear.js HTTP/1.1" 200 3188
+INFO 2024-06-01 11:12:43,038 django.server Thread-45 (process_request_thread) 127773385426624 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/modernizr.custom.js HTTP/1.1" 200 8496
+INFO 2024-06-01 11:12:43,039 django.server Thread-52 (process_request_thread) 127773173614272 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.easing.js HTTP/1.1" 200 8063
+INFO 2024-06-01 11:12:43,040 django.server Thread-30 (process_request_thread) 127773798565568 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/menu.js HTTP/1.1" 200 2699
+INFO 2024-06-01 11:12:43,040 django.server Thread-12 (process_request_thread) 127774392059584 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/post-2-img.webp HTTP/1.1" 200 12209
+INFO 2024-06-01 11:12:43,041 django.server Thread-55 (process_request_thread) 127773142156992 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/freelance_calendar_aep0Oib.webp HTTP/1.1" 200 94479
+INFO 2024-06-01 11:12:43,042 django.server Thread-46 (process_request_thread) 127773374940864 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/user-avatar.jpg HTTP/1.1" 200 9227
+INFO 2024-06-01 11:12:43,042 django.server Thread-16 (process_request_thread) 127774350116544 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/popper.min.js HTTP/1.1" 200 20976
+INFO 2024-06-01 11:12:43,042 django.server Thread-28 (process_request_thread) 127773957949120 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/pricing-toggle.js HTTP/1.1" 200 510
+INFO 2024-06-01 11:12:43,043 django.server Thread-38 (process_request_thread) 127773576267456 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.validate.min.js HTTP/1.1" 200 24368
+INFO 2024-06-01 11:12:43,043 django.server Thread-27 (process_request_thread) 127774169761472 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery.magnific-popup.min.js HTTP/1.1" 200 20216
+INFO 2024-06-01 11:12:43,044 django.server Thread-50 (process_request_thread) 127773194585792 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/bootstrap.min.js HTTP/1.1" 200 60348
+INFO 2024-06-01 11:12:43,044 django.server Thread-39 (process_request_thread) 127773565781696 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/author.jpg HTTP/1.1" 200 3981
+INFO 2024-06-01 11:12:43,045 django.server Thread-41 (process_request_thread) 127773756622528 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/wow.js HTTP/1.1" 200 16406
+INFO 2024-06-01 11:12:43,046 django.server Thread-36 (process_request_thread) 127773597238976 basehttp basehttp.py 212 django.server log_message 1266 "GET /media/post_metaimgs/post-11-img.webp HTTP/1.1" 200 21109
+INFO 2024-06-01 11:12:43,046 django.server Thread-24 (process_request_thread) 127773989406400 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/custom.js HTTP/1.1" 200 8352
+INFO 2024-06-01 11:12:43,046 django.server Thread-11 (process_request_thread) 127774488528576 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/htmx.min.js HTTP/1.1" 200 44307
+INFO 2024-06-01 11:12:43,047 django.server Thread-47 (process_request_thread) 127773364455104 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/owl.carousel.min.js HTTP/1.1" 200 44342
+INFO 2024-06-01 11:12:43,180 django.server Thread-33 (process_request_thread) 127773767108288 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/fonts/flaticon.ttf?99008aa38e7de407db084b96baa4b2a2 HTTP/1.1" 200 65644
+INFO 2024-06-01 11:12:43,186 django.server Thread-43 (process_request_thread) 127773544810176 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/bootstrap.min.css HTTP/1.1" 200 232914
+INFO 2024-06-01 11:12:43,200 django.server Thread-51 (process_request_thread) 127773184100032 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/custom-theme.css HTTP/1.1" 200 248012
+INFO 2024-06-01 11:12:43,204 django.server Thread-56 (process_request_thread) 127773597238976 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/request-form.js HTTP/1.1" 200 2773
+INFO 2024-06-01 11:12:43,205 django.server Thread-57 (process_request_thread) 127773142156992 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/lunar.js HTTP/1.1" 200 256
+INFO 2024-06-01 11:12:43,209 django.server Thread-58 (process_request_thread) 127774392059584 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/header.js HTTP/1.1" 200 672
+INFO 2024-06-01 11:12:43,209 django.server Thread-59 (process_request_thread) 127773060368064 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/chatbox.js HTTP/1.1" 200 1702
+INFO 2024-06-01 11:12:43,217 django.server Thread-42 (process_request_thread) 127773555295936 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/jquery-3.7.0.min.js HTTP/1.1" 200 87462
+INFO 2024-06-01 11:12:43,374 django.server Thread-49 (process_request_thread) 127773343483584 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/css/responsive.css HTTP/1.1" 200 413934
+INFO 2024-06-01 11:12:43,413 django.server Thread-38 (process_request_thread) 127773576267456 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/django_ckeditor_5/prism-light.css HTTP/1.1" 200 3802
+INFO 2024-06-01 11:12:43,791 django.server Thread-33 (process_request_thread) 127773767108288 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/fonts/flaticon.ttf?99008aa38e7de407db084b96baa4b2a2 HTTP/1.1" 200 65644
+INFO 2024-06-01 11:12:44,067 django.server Thread-47 (process_request_thread) 127773364455104 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/django_ckeditor_5/prism-light.css HTTP/1.1" 200 3802
+INFO 2024-06-01 11:12:47,601 django.server Thread-49 (process_request_thread) 127773343483584 basehttp basehttp.py 212 django.server log_message 1266 "GET /post/freelancers_guide_to_mastering_social_media_with_a/ HTTP/1.1" 200 8653
+INFO 2024-06-01 11:12:48,307 django.server Thread-49 (process_request_thread) 127773343483584 basehttp basehttp.py 212 django.server log_message 1266 "GET /post/freelancers_guide_to_mastering_social_media_with_a/ HTTP/1.1" 200 8654
+INFO 2024-06-01 11:12:52,692 django.server Thread-49 (process_request_thread) 127773343483584 basehttp basehttp.py 212 django.server log_message 1266 "GET /robots.txt HTTP/1.1" 200 90
+INFO 2024-06-01 11:12:53,073 django.server Thread-47 (process_request_thread) 127773364455104 basehttp basehttp.py 212 django.server log_message 1266 "GET /robots.txt HTTP/1.1" 200 90
+WARNING 2024-06-01 11:12:53,097 django.server Thread-49 (process_request_thread) 127773343483584 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 11:12:53,097 django.server Thread-59 (process_request_thread) 127773060368064 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 11:12:53,453 django.server Thread-38 (process_request_thread) 127773576267456 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 11:12:53,454 django.server Thread-47 (process_request_thread) 127773364455104 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
