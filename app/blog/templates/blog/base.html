@@ -1,0 +1,138 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title> {{ title }} </title> {% block head %} {% endblock head %}
+    <!--General Meta Tags-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="KV Parimila">
+    <meta name="description" content="{{ description }}" /> 
+    
+    <!-- Open Graph Meta Tags-->
+    <meta property="og:locale" content="en_US"> {% if not post %}
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'iPhoneblogthedata.webp' %}">
+    <meta property="og:image:alt" content="An Iphone on a table with blogthedata.com on the screen">
+    <meta property="og:image:type" content="image/webp">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630"> {% endif %}
+    <meta property="og:url" content="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}">
+    <meta property="og:title" content="{{ title }}" />
+    <meta property="og:description" content="{{ description }}" /> 
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image"> {% if not post %}
+    <meta name="twitter:image" content="{{ request.scheme }}://{{ request.get_host }}{% static 'iPhoneblogthedata.webp' %}"> {% endif %}
+    <meta name="twitter:site" content="@_jsolly">
+    <meta property="twitter:url" content="{{ request.scheme }}://{{ request.get_host }}{{ request.path }}">
+    <meta property="twitter:domain" content="{{ request.get_host }}">
+    <meta name="twitter:title" content="{{ title }}">
+    <meta name="twitter:description" content="{{ description }}" /> 
+    
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'favicon/apple-touch-icon.webp' %}">
+    <link rel="icon" type="image/webp" sizes="32x32" href="{% static 'favicon/favicon-32x32.webp' %}">
+    <link rel="icon" type="image/webp" sizes="16x16" href="{% static 'favicon/favicon-16x16.webp' %}">
+    <link rel="icon" type="image/webp" sizes="512x512" href="{% static 'favicon/android-chrome-512x512.webp' %}">
+    <link rel="icon" type="image/webp" sizes="512x512" href="{% static 'favicon/android-chrome-192x192.webp' %}">
+    <link rel="icon" type="image/webp" sizes="48x48" href="{% static 'favicon/favicon.ico' %}"> 
+    
+    <!-- My CSS -->
+    
+    <!--<link href="{% static 'css/main.css' %}" rel="stylesheet" defer>-->
+    
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"> 
+    
+    <!-- BOOTSTRAP CSS -->
+    <link href="{% static 'css/bootstrap.min.css'  %}" rel="stylesheet"> 
+    <!-- FONT ICONS -->
+    <link href="{% static 'css/flaticon.css'  %}" rel="stylesheet"> 
+    <!-- PLUGINS STYLESHEET -->
+    <link href="{% static 'css/menu.css'  %}" rel="stylesheet">
+    <link id="effect" href="{% static 'css/dropdown-effects/fade-down.css'  %}" media="all" rel="stylesheet">
+    <link href="{% static 'css/magnific-popup.css'  %}" rel="stylesheet">
+    <link href="{% static 'css/owl.carousel.min.css'  %}" rel="stylesheet">
+    <link href="{% static 'css/owl.theme.default.min.css'  %}" rel="stylesheet">
+    <link href="{% static 'css/lunar.css'  %}" rel="stylesheet"> 
+    <!-- ON SCROLL ANIMATION -->
+    <link href="{% static 'css/animate.css'  %}" rel="stylesheet">
+    <!--<link href="{% static 'css/pink-theme.css'  %}" rel="stylesheet">-->
+    <link href="{% static 'css/custom-theme.css'  %}" rel="stylesheet"> 
+    <!-- RESPONSIVE CSS -->
+    <link href="{% static 'css/responsive.css'  %}" rel="stylesheet">
+</head>
+<!--{% include "blog/parts/chatbox.html" %}-->
+
+<body>
+    <!-- PRELOADER SPINNER
+		============================================= -->
+    <div id="loading" class="loading--theme">
+        <div id="loading-center"> <span class="loader"></span> </div>
+    </div>
+    <!-- PAGE CONTENT
+			  ============================================= -->
+    <div id="page" class="page font--jakarta">
+        <!-- HEADER
+				  ============================================= --> 
+          {% include "blog/parts/header.html" %}
+        <!-- END HEADER -->
+
+      <!-- BLOG POSTS LISTING
+			============================================= -->
+        <section id="blog-page" class="pb-60 inner-page-hero blog-page-section">
+            <div class="container"> 
+                {% if messages %} 
+                  {% for message in messages %} 
+                    <div class="alert alert-{{ message.tags }}">{{ message }}</div> 
+                  {% endfor %} 
+                {% endif %}
+                <!--<div id="breadcrumbs-container">
+                  {% include "blog/parts/breadcrumbs.html" %}
+                </div>--> 
+                {% block content %} 
+                
+                {% endblock content %} 
+                
+                <div id="scroll-to-top-container" aria-label="Scroll to top" class="scroll-to-top"> 
+                  <a id="scroll-to-top" href="#"> <span class="flaticon-up-arrow"></span></a> 
+                </div>
+            </div>
+        </section>
+    </div> 
+
+    {% block special_content %}
+
+    {% endblock special_content %}
+    
+    {% include "blog/parts/footer.html" %}
+</body> <!-- HTMX -->
+<script src="{% static 'js/htmx.min.js' %}" defer></script> <!-- ChatBox JS -->
+<script src="{% static 'js/chatbox.js' %}" defer></script> <!-- Header JS-->
+<script src="{% static 'js/header.js' %}" defer></script>
+<!-- EXTERNAL SCRIPTS
+  ============================================= -->
+<script src="{% static 'js/jquery-3.7.0.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/modernizr.custom.js' %}"></script>
+<script src="{% static 'js/jquery.easing.js' %}"></script>
+<script src="{% static 'js/jquery.appear.js' %}"></script>
+<script src="{% static 'js/menu.js' %}"></script>
+<script src="{% static 'js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'js/pricing-toggle.js' %}"></script>
+<script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'js/request-form.js' %}"></script>
+<script src="{% static 'js/jquery.validate.min.js' %}"></script>
+<script src="{% static 'js/jquery.ajaxchimp.min.js' %}"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
+<script src="{% static 'js/lunar.js' %}"></script>
+<script src="{% static 'js/wow.js' %}"></script> <!-- Custom Script -->
+<script src="{% static 'js/custom.js' %}"></script>
+
+</html>
+
+</html>

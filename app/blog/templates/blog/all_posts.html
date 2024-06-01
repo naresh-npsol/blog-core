@@ -1,0 +1,21 @@
+{% extends "blog/base.html" %}
+{% load static %}
+
+{% block head %}
+<link rel="canonical" href="{{ request.scheme }}://{{ request.get_host }}" />
+{% endblock head %}
+
+{% block content %}
+
+{% for post in posts %}
+ {% if post.category.name == 'Featured' %}
+  {% include "blog/parts/featured.html" %}
+ {% endif %} 
+{% endfor %}  
+
+<section class="row" id="Blog-Home-posts">
+  <h1 class="display-6">All Posts! {% if page_obj.number > 1 %} (Page {{ page_obj.number }}) {% endif %} </h1>
+  {% include "blog/parts/posts_paginated.html" %}
+</section>
+
+{% endblock content %}

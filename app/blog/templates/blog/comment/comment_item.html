@@ -1,0 +1,39 @@
+
+{% load static %}					
+          <!-- COMMENT #4 -->
+              <div class="comment d-flex">
+
+                <!-- Comment Avatar -->
+                  <img src="{% static 'user-avatar.jpg' %}" alt="comment-avatar">
+
+                  <!-- Comment Body -->
+                 <div class="comment-body">
+
+                   <!-- Comment Meta -->
+                   <div class="comment-meta">
+                       <h6 class="s-17 w-700">{{ comment.author }}</h6>
+                       <span class="comment-date">{{ comment.date_posted|date:"F d, Y" }}</span>
+                    <!--<span class="btn-reply ico-20">
+                      <a href="#leave-comment"><span class="flaticon-reply-arrow"></span> Reply</a>
+                    </span>-->
+                  </div>
+                  
+                  <!-- Comment Text -->	
+                     <p>{{ comment.content|safe|linebreaksbr }}
+                     </p>
+                     {% if comment.author == request.user %}
+                     <span class="comment-actions">
+                       <a href="{% url 'comment-update' comment.id %}" class="btn btn--theme comment-edit">Edit</a>
+                       <form class="comment-delete-form" hx-delete="{% url 'comment-delete' comment.id %}"
+                         hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}' hx-target="closest li"
+                         hx-confirm="Are you sure you want to delete this comment?">
+                         <button type="submit" class="btn btn--theme comment-delete">
+                           Delete
+                         </button>
+                       </form>
+                     </span>
+                     {% endif %}
+
+                   </div>	<!-- End Comment Body -->
+
+              </div>	<!-- END COMMENT #4 -->		

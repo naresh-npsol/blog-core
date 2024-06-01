@@ -1,0 +1,54 @@
+{% load post_utils %}
+{% load static %}
+
+<!-- BLOG POST #1 -->
+<div class="col-md-6 col-lg-4">
+  <div class="blog-post mb-40 wow fadeInUp clearfix">	
+
+  {% if post.featimg.url != '/media/default.webp' %}
+    <!-- BLOG POST IMAGE -->
+    <div class="blog-post-img mb-35">
+      <img class="img-fluid r-16" src="{{ post.featimg.url }}" alt="{{ post.metaimg_alt_txt }}" >
+    </div>	
+  {% else %}
+    <!-- BLOG POST IMAGE -->
+    <div class="blog-post-img mb-35">
+     <img class="img-fluid r-16" src="{{ post.metaimg.url }}" alt="{{ post.metaimg_alt_txt }}" >
+   </div>	
+  {% endif %}
+
+   <!-- BLOG POST TEXT -->
+   <div class="blog-post-txt">
+
+     <!-- Post Tag -->
+     <span class="post-tag color--red-400">{{ post.category.name }}</span>	
+
+     <!-- Post Link -->
+     <h6 class="s-20 w-700">
+       <a href="{% url 'post-detail' post.slug %}">{{ post.title }}
+        {% if post.draft %}
+        <span class="post-draft">(Draft)</span>
+        {% endif %}
+       </a>
+     </h6>
+
+     <!-- Text -->
+     <p> {{ post.snippet|safe }}
+     </p>
+
+     <!-- Post Meta -->
+     <div class="blog-post-meta mt-20">
+       <ul class="post-meta-list ico-10">
+         <li><p class="p-sm w-500">By KV Parimila</p></li>
+         <li class="meta-list-divider"><p><span class="flaticon-minus"></span></p></li>
+         <li><p class="p-sm">                  
+          {{ post.date_posted|date:"F d, Y" }}
+        </p></li>
+       </ul>
+     </div>
+
+   </div>	<!-- END BLOG POST TEXT -->
+
+
+  </div>
+</div>	<!-- END BLOG POST #1 -->

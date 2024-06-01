@@ -1,0 +1,53 @@
+{% load post_utils %}
+{% load static %}
+
+{% for post in featured_posts %}
+
+        <!-- WIDE BLOG POST -->
+        <div class="blog-post wide-post wow fadeInUp">
+            <div class="row d-flex align-items-center">
+
+                       
+               <!-- BLOG POST IMAGE -->
+                <div class="col-md-6">
+                    <div class="blog-post-img">
+                       <img class="img-fluid r-16" src="{{ post.featimg.url }}" alt="blog-post-image">
+                   </div>	
+               </div>
+
+
+               <!-- BLOG POST TEXT -->
+               <div class="col-md-6">
+                   <div class="blog-post-txt">
+
+                       <!-- Post Tag -->
+                       <span class="post-tag color--blue-400">{{post.category.name}}</span>	
+
+                       <!-- Post Link -->
+                       <h3 class="s-38 w-700">
+                           <a href="./the_role_of_automated_tools_in_maintaining_social_media_consistency.html">The Role of Automated Tools in Maintaining Social Media Consistency
+                           </a>
+                       </h3>
+
+                       <!-- Text -->
+                       <p>Social media has evolved from a novel communication platform to a critical marketing 
+                           battlefield where consistency and precision dictate success.
+                       </p>
+
+                       <!-- Post Meta -->
+                       <div class="blog-post-meta mt-30">
+                           <ul class="post-meta-list ico-10">
+                               <li><p class="w-500">By KV Parimila</p></li>
+                               <li class="meta-list-divider"><p><span class="flaticon-minus"></span></p></li>
+                               <li><p>May 19, 2024</p></li>
+                           </ul>
+                       </div>
+
+                   </div>
+               </div>	<!-- END BLOG POST TEXT -->
+
+
+           </div>   <!-- End row -->
+        </div>	<!-- END WIDE BLOG POST -->
+    
+{% endfor %}
