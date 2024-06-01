@@ -1850,3 +1850,15 @@ WARNING 2024-05-31 20:08:52,165 django.server Thread-63 (process_request_thread)
 WARNING 2024-05-31 20:08:56,953 django.server Thread-64 (process_request_thread) 124844229260864 basehttp basehttp.py 212 django.server log_message 8532 "GET /static/css/bootstrap.min.css.map HTTP/1.1" 404 1834
 WARNING 2024-05-31 20:08:56,969 django.server Thread-65 (process_request_thread) 124844220868160 basehttp basehttp.py 212 django.server log_message 8532 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
 WARNING 2024-05-31 20:08:57,483 django.server Thread-66 (process_request_thread) 124844220868160 basehttp basehttp.py 212 django.server log_message 8532 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2024-06-01 10:58:32,430 django.request Thread-1 (process_request_thread) 133652526663360 log log.py 241 django.request log_response 1072 Bad Request: /
+WARNING 2024-06-01 10:58:32,432 django.server Thread-1 (process_request_thread) 133652526663360 basehttp basehttp.py 212 django.server log_message 1072 "GET / HTTP/1.1" 400 13735
+WARNING 2024-06-01 10:58:33,043 django.request Thread-1 (process_request_thread) 133652526663360 log log.py 241 django.request log_response 1072 Bad Request: /favicon.ico
+WARNING 2024-06-01 10:58:33,043 django.server Thread-1 (process_request_thread) 133652526663360 basehttp basehttp.py 212 django.server log_message 1072 "GET /favicon.ico HTTP/1.1" 400 13657
+WARNING 2024-06-01 11:05:26,934 django.request Thread-1 (process_request_thread) 140033679951552 log log.py 241 django.request log_response 1225 Bad Request: /
+WARNING 2024-06-01 11:05:26,935 django.server Thread-1 (process_request_thread) 140033679951552 basehttp basehttp.py 212 django.server log_message 1225 "GET / HTTP/1.1" 400 13778
+WARNING 2024-06-01 11:05:27,525 django.request Thread-1 (process_request_thread) 140033679951552 log log.py 241 django.request log_response 1225 Bad Request: /favicon.ico
+WARNING 2024-06-01 11:05:27,526 django.server Thread-1 (process_request_thread) 140033679951552 basehttp basehttp.py 212 django.server log_message 1225 "GET /favicon.ico HTTP/1.1" 400 13663
+WARNING 2024-06-01 11:12:53,097 django.server Thread-49 (process_request_thread) 127773343483584 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 11:12:53,097 django.server Thread-59 (process_request_thread) 127773060368064 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 11:12:53,453 django.server Thread-38 (process_request_thread) 127773576267456 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 11:12:53,454 django.server Thread-47 (process_request_thread) 127773364455104 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
