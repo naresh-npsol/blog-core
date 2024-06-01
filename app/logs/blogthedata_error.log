@@ -1871,3 +1871,7 @@ WARNING 2024-06-01 12:21:04,576 django.server Thread-4 (process_request_thread) 
 WARNING 2024-06-01 12:21:06,004 django.server Thread-5 (process_request_thread) 128726315558464 basehttp basehttp.py 212 django.server log_message 20037 "GET /static/css/style.pure.css HTTP/1.1" 404 1813
 WARNING 2024-06-01 16:18:55,726 django.server Thread-2 (process_request_thread) 133918163461696 basehttp basehttp.py 212 django.server log_message 29040 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
 WARNING 2024-06-01 16:18:55,728 django.server Thread-1 (process_request_thread) 133918171854400 basehttp basehttp.py 212 django.server log_message 29040 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2024-06-01 16:32:46,466 django.server Thread-4 (process_request_thread) 130819967403584 basehttp basehttp.py 212 django.server log_message 29830 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2024-06-01 16:32:46,845 django.server Thread-2 (process_request_thread) 130819987334720 basehttp basehttp.py 212 django.server log_message 29830 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2024-06-01 16:37:03,877 django.server Thread-3 (process_request_thread) 130819975796288 basehttp basehttp.py 212 django.server log_message 29830 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2024-06-01 16:37:04,040 django.server Thread-1 (process_request_thread) 130819995727424 basehttp basehttp.py 212 django.server log_message 29830 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
