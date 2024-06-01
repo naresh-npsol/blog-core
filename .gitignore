@@ -1,1 +1,24 @@
 blogenv/
+.env
+.env.example
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.pyo
+*.pyd
+
+# Caches
+__pycache__/
+
+# Logs
+*.log
+
+
+
+# Compiled Python bytecode
+*.pyc
+
+# Ignore migrations
+**/migrations/
+
+
