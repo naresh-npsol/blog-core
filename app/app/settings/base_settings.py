@@ -468,3 +468,6 @@ CKEDITOR_5_CONFIGS = {
 
 CKEDITOR_5_FILE_STORAGE = "blog.storage.CustomStorage"
 CKEDITOR_5_CUSTOM_CSS = STATIC_URL + "django_ckeditor_5/ckeditor_custom.css"
+
+
+COMPRESS_ENABLED = True
