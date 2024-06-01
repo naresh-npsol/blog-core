@@ -1862,3 +1862,10 @@ WARNING 2024-06-01 11:12:53,097 django.server Thread-49 (process_request_thread)
 WARNING 2024-06-01 11:12:53,097 django.server Thread-59 (process_request_thread) 127773060368064 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
 WARNING 2024-06-01 11:12:53,453 django.server Thread-38 (process_request_thread) 127773576267456 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
 WARNING 2024-06-01 11:12:53,454 django.server Thread-47 (process_request_thread) 127773364455104 basehttp basehttp.py 212 django.server log_message 1266 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 12:20:17,713 django.server Thread-1 (process_request_thread) 128726323951168 basehttp basehttp.py 212 django.server log_message 20037 "GET /static/css/style.pure.css HTTP/1.1" 404 1813
+WARNING 2024-06-01 12:20:20,082 django.server Thread-3 (process_request_thread) 128726323951168 basehttp basehttp.py 212 django.server log_message 20037 "GET /static/css/style.pure.css HTTP/1.1" 404 1813
+WARNING 2024-06-01 12:20:25,093 django.request Thread-2 (process_request_thread) 128726315558464 log log.py 241 django.request log_response 20037 Not Found: /favicon.ico
+WARNING 2024-06-01 12:20:25,095 django.server Thread-2 (process_request_thread) 128726315558464 basehttp basehttp.py 212 django.server log_message 20037 "GET /favicon.ico HTTP/1.1" 404 1569
+WARNING 2024-06-01 12:20:58,705 django.server Thread-2 (process_request_thread) 128726315558464 basehttp basehttp.py 212 django.server log_message 20037 "GET /static/css/style.pure.css HTTP/1.1" 404 1813
+WARNING 2024-06-01 12:21:04,576 django.server Thread-4 (process_request_thread) 128726323951168 basehttp basehttp.py 212 django.server log_message 20037 "GET /static/css/style.pure.css HTTP/1.1" 404 1813
+WARNING 2024-06-01 12:21:06,004 django.server Thread-5 (process_request_thread) 128726315558464 basehttp basehttp.py 212 django.server log_message 20037 "GET /static/css/style.pure.css HTTP/1.1" 404 1813
