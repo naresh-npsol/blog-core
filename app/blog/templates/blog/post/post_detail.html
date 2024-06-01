@@ -141,8 +141,8 @@
 {% block js_content %}
 
 <!-- django_ckeditor_5 -->
-<link href="{% static 'django_ckeditor_5/ckeditor.css' %}" rel="stylesheet">
-<script src="{% static 'django_ckeditor_5/prism.js' %}" defer></script>
+<link rel="stylesheet" type="text/css" href="{% static 'django_ckeditor_5/ckeditor.css' %}" rel="stylesheet">
+<script type="text/javascript" src="{% static 'django_ckeditor_5/prism.js' %}" defer></script>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
       var lightModePrismCSS = "{% static 'django_ckeditor_5/prism-light.css' %}";
@@ -162,6 +162,6 @@
       document.head.insertBefore(link, document.head.firstChild);
     });
 </script>
-<script src="{% static 'js/addHeaderIdsAndLinks.js' %}" defer></script> <!-- Post-detail Injected Meta tags -->
+<script type="text/javascript" src="{% static 'js/addHeaderIdsAndLinks.js' %}" defer></script> <!-- Post-detail Injected Meta tags -->
 
 {% endblock js_content %}
