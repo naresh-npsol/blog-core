@@ -129,6 +129,7 @@ MIDDLEWARE = [
     "django.contrib.redirects.middleware.RedirectFallbackMiddleware",
     "django_htmx.middleware.HtmxMiddleware",
     'django.middleware.gzip.GZipMiddleware',
+    'django.middleware.static.StaticFilesMiddleware',
 ]
 
 ROOT_URLCONF = "app.urls"
