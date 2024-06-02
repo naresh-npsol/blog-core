@@ -1875,3 +1875,182 @@ WARNING 2024-06-01 16:32:46,466 django.server Thread-4 (process_request_thread) 
 WARNING 2024-06-01 16:32:46,845 django.server Thread-2 (process_request_thread) 130819987334720 basehttp basehttp.py 212 django.server log_message 29830 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
 WARNING 2024-06-01 16:37:03,877 django.server Thread-3 (process_request_thread) 130819975796288 basehttp basehttp.py 212 django.server log_message 29830 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
 WARNING 2024-06-01 16:37:04,040 django.server Thread-1 (process_request_thread) 130819995727424 basehttp basehttp.py 212 django.server log_message 29830 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2024-06-01 16:44:24,365 django.server Thread-45 (process_request_thread) 130582407284416 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 16:44:24,368 django.server Thread-39 (process_request_thread) 130582428255936 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 16:44:24,934 django.server Thread-42 (process_request_thread) 130582396798656 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 16:44:24,934 django.server Thread-31 (process_request_thread) 130582809937600 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 16:51:08,691 django.server Thread-103 (process_request_thread) 130581941716672 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 16:51:08,694 django.server Thread-97 (process_request_thread) 130582004631232 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 16:51:09,075 django.server Thread-94 (process_request_thread) 130582025602752 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 16:51:09,077 django.server Thread-92 (process_request_thread) 130582184986304 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 16:51:42,519 django.server Thread-125 (process_request_thread) 130581983659712 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 16:51:42,520 django.server Thread-54 (process_request_thread) 130583424403136 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 16:51:42,723 django.server Thread-122 (process_request_thread) 130581826373312 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 16:51:42,727 django.server Thread-124 (process_request_thread) 130583191619264 basehttp basehttp.py 212 django.server log_message 3822 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 18:01:04,865 django.server Thread-57 (process_request_thread) 135145810036416 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 18:01:04,865 django.server Thread-59 (process_request_thread) 135145799550656 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 18:01:05,151 django.server Thread-60 (process_request_thread) 135145789064896 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 18:01:05,153 django.server Thread-54 (process_request_thread) 135145831007936 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 18:02:26,932 django.server Thread-8 (process_request_thread) 135147183670976 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 18:02:26,933 django.server Thread-18 (process_request_thread) 135146940401344 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 18:02:27,101 django.server Thread-14 (process_request_thread) 135146982344384 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 18:02:27,102 django.server Thread-52 (process_request_thread) 135145923282624 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 18:02:52,691 django.server Thread-62 (process_request_thread) 135145831007936 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 18:02:52,692 django.server Thread-65 (process_request_thread) 135145778579136 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 18:03:21,695 django.server Thread-63 (process_request_thread) 135145799550656 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 18:03:21,962 django.server Thread-64 (process_request_thread) 135145810036416 basehttp basehttp.py 212 django.server log_message 4067 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 18:12:14,282 django.server Thread-1 (process_request_thread) 137656090494656 basehttp basehttp.py 212 django.server log_message 4300 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 18:12:14,325 django.server Thread-2 (process_request_thread) 137656080008896 basehttp basehttp.py 212 django.server log_message 4300 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 18:16:36,558 django.server Thread-2 (process_request_thread) 136425865479872 basehttp basehttp.py 212 django.server log_message 4327 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1833
+WARNING 2024-06-01 18:16:36,802 django.server Thread-1 (process_request_thread) 136425875965632 basehttp basehttp.py 212 django.server log_message 4327 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1824
+WARNING 2024-06-01 19:44:43,056 django.request MainThread 137172703158400 log log.py 241 django.request log_response 1703 Bad Request: /
+WARNING 2024-06-01 19:44:43,597 django.request MainThread 137172703158400 log log.py 241 django.request log_response 1703 Bad Request: /favicon.ico
+WARNING 2024-06-01 19:46:18,749 django.request MainThread 137172703158400 log log.py 241 django.request log_response 1702 Bad Request: /
+WARNING 2024-06-01 19:46:19,240 django.request MainThread 137172703158400 log log.py 241 django.request log_response 1702 Bad Request: /favicon.ico
+WARNING 2024-06-01 19:46:23,044 django.request MainThread 137172703158400 log log.py 241 django.request log_response 1701 Bad Request: /
+WARNING 2024-06-01 19:46:23,538 django.request MainThread 137172703158400 log log.py 241 django.request log_response 1701 Bad Request: /favicon.ico
+WARNING 2024-06-01 19:47:54,779 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /favicon.ico
+WARNING 2024-06-01 19:54:08,143 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 19:54:08,152 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 19:54:19,778 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 19:54:19,919 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 19:54:33,451 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 19:54:33,703 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 19:54:52,593 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 19:54:52,593 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 19:54:53,220 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 19:54:53,221 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 19:56:02,350 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 19:56:02,350 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 19:56:07,602 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 19:56:07,809 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 19:59:33,272 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 19:59:33,272 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 19:59:36,800 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 19:59:37,217 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 20:03:02,114 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 20:03:02,114 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 20:03:03,296 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /static/js/popper.min.js.map
+WARNING 2024-06-01 20:03:03,296 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /static/js/bootstrap.min.js.map
+WARNING 2024-06-01 21:20:57,582 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /info.php
+WARNING 2024-06-01 21:20:57,633 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /phpinfo.php
+WARNING 2024-06-01 21:20:57,681 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /_profiler/phpinfo
+WARNING 2024-06-01 21:20:57,732 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /debug/default/view
+WARNING 2024-06-01 23:51:01,787 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /.env
+WARNING 2024-06-02 00:43:29,018 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /.env
+WARNING 2024-06-02 00:43:29,512 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /api/.env
+WARNING 2024-06-02 00:43:30,504 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /appsettings.json
+WARNING 2024-06-02 00:43:31,005 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /server.settings
+WARNING 2024-06-02 00:43:31,495 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /server.config
+WARNING 2024-06-02 00:43:31,976 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /s3.config
+WARNING 2024-06-02 00:43:32,470 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /bootstrap.properties
+WARNING 2024-06-02 00:43:32,965 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /main/resources/bootstrap.properties
+WARNING 2024-06-02 00:43:33,461 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /bootstrap.yml
+WARNING 2024-06-02 00:43:33,967 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /main/resources/bootstrap.yml
+WARNING 2024-06-02 00:43:34,456 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/local.json
+WARNING 2024-06-02 00:43:34,941 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/default.json
+WARNING 2024-06-02 00:43:35,432 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /config/development.json
+WARNING 2024-06-02 00:43:35,931 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /config/production.json
+WARNING 2024-06-02 00:43:37,363 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/test.json
+WARNING 2024-06-02 00:43:37,863 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/custom-environment-variables.json
+WARNING 2024-06-02 00:43:38,357 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /config/local-development.json
+WARNING 2024-06-02 00:43:38,848 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /config/local-production.json
+WARNING 2024-06-02 00:43:39,642 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/local-test.json
+WARNING 2024-06-02 00:43:40,148 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /variables.js
+WARNING 2024-06-02 00:43:40,649 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /main/variables.config
+WARNING 2024-06-02 00:43:42,657 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /variables.config
+WARNING 2024-06-02 00:43:43,147 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /test/main.config
+WARNING 2024-06-02 00:43:43,654 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /test/config.js
+WARNING 2024-06-02 00:43:44,154 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /local_settings.py
+WARNING 2024-06-02 00:43:46,953 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /local.config
+WARNING 2024-06-02 00:43:47,442 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /local
+WARNING 2024-06-02 00:43:47,939 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /local.settings
+WARNING 2024-06-02 00:43:48,433 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/app.json
+WARNING 2024-06-02 00:43:51,639 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/app.js
+WARNING 2024-06-02 00:43:53,427 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/server
+WARNING 2024-06-02 00:43:54,238 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/server.js
+WARNING 2024-06-02 00:43:54,734 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/test.js
+WARNING 2024-06-02 00:43:55,536 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/database.php
+WARNING 2024-06-02 00:43:56,031 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/cache.php
+WARNING 2024-06-02 00:43:56,825 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/session.php
+WARNING 2024-06-02 00:43:57,327 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /config/mail.php
+WARNING 2024-06-02 00:43:57,826 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/queue.php
+WARNING 2024-06-02 00:43:58,321 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/services.php
+WARNING 2024-06-02 00:43:58,825 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/broadcasting.php
+WARNING 2024-06-02 00:43:59,325 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/filesystems.php
+WARNING 2024-06-02 00:43:59,831 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/hashing.php
+WARNING 2024-06-02 00:44:00,338 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/logging.php
+WARNING 2024-06-02 00:44:00,864 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/auth.php
+WARNING 2024-06-02 00:44:01,367 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/view.php
+WARNING 2024-06-02 00:44:01,870 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /jest.config.js
+WARNING 2024-06-02 00:44:02,368 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /src/config/index.js
+WARNING 2024-06-02 00:44:04,199 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /src/config/env.js
+WARNING 2024-06-02 00:44:05,721 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /src/config/constants.js
+WARNING 2024-06-02 00:44:06,535 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /src/server.js
+WARNING 2024-06-02 00:44:07,045 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /src/docker-compose.yml
+WARNING 2024-06-02 00:44:07,549 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /src/docker.json
+WARNING 2024-06-02 00:44:08,046 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /src/docker.js
+WARNING 2024-06-02 00:44:08,544 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /src/app/config/config.service
+WARNING 2024-06-02 00:44:09,046 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config.service
+WARNING 2024-06-02 00:44:09,543 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /app.service
+WARNING 2024-06-02 00:44:10,040 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /main.service
+WARNING 2024-06-02 00:44:10,536 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /dotenv.config.js
+WARNING 2024-06-02 00:44:12,106 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/env/development.js
+WARNING 2024-06-02 00:44:12,603 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/env/production.js
+WARNING 2024-06-02 00:44:13,104 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /config/env/test.js
+WARNING 2024-06-02 00:44:14,549 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /package.json
+WARNING 2024-06-02 00:44:16,013 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /config/env/app.js
+WARNING 2024-06-02 00:44:16,806 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/env/server.js
+WARNING 2024-06-02 00:44:17,291 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /config/env
+WARNING 2024-06-02 00:44:17,786 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /settings_dev.py
+WARNING 2024-06-02 00:44:18,279 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /settings_prod.py
+WARNING 2024-06-02 00:44:18,776 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /app/main.py
+WARNING 2024-06-02 00:44:19,276 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /app/config.py
+WARNING 2024-06-02 00:44:19,776 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /testing.ini
+WARNING 2024-06-02 00:44:21,195 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /testing.py
+WARNING 2024-06-02 00:44:22,732 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /setup.cfg
+WARNING 2024-06-02 00:44:23,229 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /setup.py
+WARNING 2024-06-02 00:44:24,654 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /quarkus-config.yaml
+WARNING 2024-06-02 00:44:25,147 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /quarkus-application.yaml
+WARNING 2024-06-02 00:44:25,957 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /quarkus.properties
+WARNING 2024-06-02 00:44:26,471 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /application/config/rest.php
+WARNING 2024-06-02 00:44:26,977 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /application/config/config.php
+WARNING 2024-06-02 00:44:28,424 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /application/config/constants.php
+WARNING 2024-06-02 00:44:29,217 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /application/config/profiler.php
+WARNING 2024-06-02 00:44:30,682 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/web.php
+WARNING 2024-06-02 00:44:31,190 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/console.php
+WARNING 2024-06-02 00:44:31,689 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/params.php
+WARNING 2024-06-02 00:44:32,194 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/db.php
+WARNING 2024-06-02 00:44:32,707 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/test.php
+WARNING 2024-06-02 00:44:34,199 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/bootstrap.php
+WARNING 2024-06-02 00:44:35,019 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/main.php
+WARNING 2024-06-02 00:44:36,502 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /web/index.php
+WARNING 2024-06-02 00:44:36,984 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /web/.htaccess
+WARNING 2024-06-02 00:44:37,481 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /console/config/main.php
+WARNING 2024-06-02 00:44:37,967 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /log/development.log
+WARNING 2024-06-02 00:44:38,453 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /log/production.log
+WARNING 2024-06-02 00:44:38,941 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /Rakefile
+WARNING 2024-06-02 00:44:39,440 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /Procfile
+WARNING 2024-06-02 00:44:39,949 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /Dockerfiles
+WARNING 2024-06-02 00:44:40,455 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /appsettings.Development.json
+WARNING 2024-06-02 00:44:43,595 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /appsettings.Production.json
+WARNING 2024-06-02 00:44:44,102 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /appsettings.Staging.json
+WARNING 2024-06-02 00:44:44,612 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /wwwroot/appsettings.json
+WARNING 2024-06-02 00:44:45,436 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/config.go
+WARNING 2024-06-02 00:44:45,937 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/app.yaml
+WARNING 2024-06-02 00:44:46,448 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/app.dev.yaml
+WARNING 2024-06-02 00:44:46,963 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /config/app.prod.yaml
+WARNING 2024-06-02 00:44:47,483 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /config/app.test.yaml
+WARNING 2024-06-02 00:44:47,992 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /next.config.js
+WARNING 2024-06-02 00:44:48,482 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /next-env.d.ts
+WARNING 2024-06-02 00:44:48,980 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /pages/_app.js
+WARNING 2024-06-02 00:44:49,471 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /pages/_document.js
+WARNING 2024-06-02 00:44:49,997 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /pages/_error.js
+WARNING 2024-06-02 00:44:50,503 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /pages/index.js
+WARNING 2024-06-02 00:44:51,001 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /pages/api/hello.js
+WARNING 2024-06-02 00:44:51,493 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /pages/about.js
+WARNING 2024-06-02 00:44:52,003 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /assets/js/main.js
+WARNING 2024-06-02 00:44:53,840 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1790 Not Found: /store/index.js
+WARNING 2024-06-02 05:33:46,875 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1792 Not Found: /.env
+WARNING 2024-06-02 07:45:26,412 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /.env
+WARNING 2024-06-02 08:49:52,534 django.request MainThread 123520174502016 log log.py 241 django.request log_response 1791 Not Found: /.env
