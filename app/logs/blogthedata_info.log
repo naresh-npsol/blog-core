@@ -4240,3 +4240,17 @@ INFO 2024-06-02 18:09:18,979 django.server Thread-17 (process_request_thread) 12
 INFO 2024-06-02 18:09:19,088 django.server Thread-17 (process_request_thread) 125395744572992 basehttp basehttp.py 212 django.server log_message 5617 "GET /static/css/styles_pure.css HTTP/1.1" 304 0
 WARNING 2024-06-02 18:09:19,889 django.server Thread-17 (process_request_thread) 125395744572992 basehttp basehttp.py 212 django.server log_message 5617 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
 WARNING 2024-06-02 18:09:19,943 django.server Thread-18 (process_request_thread) 125395395409472 basehttp basehttp.py 212 django.server log_message 5617 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+INFO 2024-06-02 18:19:11,598 django.utils.autoreload MainThread 137448840519680 autoreload autoreload.py 668 django.utils.autoreload run_with_reloader 6500 Watching for file changes with StatReloader
+WARNING 2024-06-02 18:19:17,303 django.security.SuspiciousSession Thread-1 (process_request_thread) 137447913551424 base base.py 108 django.security.SuspiciousSession decode 6500 Session data corrupted
+INFO 2024-06-02 18:19:17,456 django.server Thread-1 (process_request_thread) 137447913551424 basehttp basehttp.py 212 django.server log_message 6500 "GET / HTTP/1.1" 200 5396
+INFO 2024-06-02 18:19:17,516 django.server Thread-1 (process_request_thread) 137447913551424 basehttp basehttp.py 212 django.server log_message 6500 "GET /static/css/styles_pure.css HTTP/1.1" 304 0
+WARNING 2024-06-02 18:19:17,915 django.server Thread-1 (process_request_thread) 137447913551424 basehttp basehttp.py 212 django.server log_message 6500 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2024-06-02 18:19:18,180 django.server Thread-2 (process_request_thread) 137447905158720 basehttp basehttp.py 212 django.server log_message 6500 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2024-06-02 18:19:19,230 django.security.SuspiciousSession Thread-3 (process_request_thread) 137447905158720 base base.py 108 django.security.SuspiciousSession decode 6500 Session data corrupted
+INFO 2024-06-02 18:19:19,255 django.server Thread-3 (process_request_thread) 137447905158720 basehttp basehttp.py 212 django.server log_message 6500 "GET /?page=2 HTTP/1.1" 200 588
+WARNING 2024-06-02 18:19:20,553 django.security.SuspiciousSession Thread-3 (process_request_thread) 137447905158720 base base.py 108 django.security.SuspiciousSession decode 6500 Session data corrupted
+INFO 2024-06-02 18:19:20,610 django.server Thread-3 (process_request_thread) 137447905158720 basehttp basehttp.py 212 django.server log_message 6500 "GET /post/freelancers_guide_to_mastering_social_media_with_a/ HTTP/1.1" 200 8570
+WARNING 2024-06-02 18:19:21,442 django.server Thread-3 (process_request_thread) 137447905158720 basehttp basehttp.py 212 django.server log_message 6500 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2024-06-02 18:19:21,443 django.server Thread-4 (process_request_thread) 137447913551424 basehttp basehttp.py 212 django.server log_message 6500 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2024-06-02 18:24:49,913 django.request Thread-5 (process_request_thread) 137447913551424 log log.py 241 django.request log_response 6500 Not Found: /favicon.ico
+WARNING 2024-06-02 18:24:49,915 django.server Thread-5 (process_request_thread) 137447913551424 basehttp basehttp.py 212 django.server log_message 6500 "GET /favicon.ico HTTP/1.1" 404 1475

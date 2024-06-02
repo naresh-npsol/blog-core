@@ -2077,3 +2077,9 @@ WARNING 2024-06-02 18:09:01,414 django.server Thread-15 (process_request_thread)
 WARNING 2024-06-02 18:09:01,435 django.server Thread-16 (process_request_thread) 125395744572992 basehttp basehttp.py 212 django.server log_message 5617 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
 WARNING 2024-06-02 18:09:19,889 django.server Thread-17 (process_request_thread) 125395744572992 basehttp basehttp.py 212 django.server log_message 5617 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
 WARNING 2024-06-02 18:09:19,943 django.server Thread-18 (process_request_thread) 125395395409472 basehttp basehttp.py 212 django.server log_message 5617 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2024-06-02 18:19:17,915 django.server Thread-1 (process_request_thread) 137447913551424 basehttp basehttp.py 212 django.server log_message 6500 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2024-06-02 18:19:18,180 django.server Thread-2 (process_request_thread) 137447905158720 basehttp basehttp.py 212 django.server log_message 6500 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2024-06-02 18:19:21,442 django.server Thread-3 (process_request_thread) 137447905158720 basehttp basehttp.py 212 django.server log_message 6500 "GET /static/js/bootstrap.min.js.map HTTP/1.1" 404 1828
+WARNING 2024-06-02 18:19:21,443 django.server Thread-4 (process_request_thread) 137447913551424 basehttp basehttp.py 212 django.server log_message 6500 "GET /static/js/popper.min.js.map HTTP/1.1" 404 1819
+WARNING 2024-06-02 18:24:49,913 django.request Thread-5 (process_request_thread) 137447913551424 log log.py 241 django.request log_response 6500 Not Found: /favicon.ico
+WARNING 2024-06-02 18:24:49,915 django.server Thread-5 (process_request_thread) 137447913551424 basehttp basehttp.py 212 django.server log_message 6500 "GET /favicon.ico HTTP/1.1" 404 1475

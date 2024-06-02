@@ -2,6 +2,7 @@ blogenv/
 .env
 .env.example
 
+app/logs/
 # Byte-compiled / optimized / DLL files
 *.py[cod]
 *.pyo
@@ -12,8 +13,6 @@ __pycache__/
 
 # Logs
 *.log
-
-logs/
 
 app/blog/__pycache__/
 
